@@ -1,0 +1,137 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        font-size: 10px;
+
+        div{
+            display: flex;
+            margin: 10px;
+
+        }
+
+        .abouthead:hover{
+
+            cursor:grab;
+
+            transform: scale(1.1);
+            transition: 0.5s;
+
+        }
+    }
+    .about{
+        font-size: 40px;
+
+        margin: 50px;
+        padding: 10px;
+        width: 500px;
+        pointer
+
+        .spns{
+
+
+        }
+        .spns:hover{
+            color: rgb(120, 107, 107);
+            transition: 0.25s;
+        }
+
+        .about:hover{
+            transform: scale(1.1);
+            transition: 0.5s;
+            
+        }
+
+
+
+
+    }
+    embed:hover{
+        transform: scale(1.5);
+        transition: 1s;
+
+    }
+
+    
+
+    .mainmain{
+        background-color: rgb(234, 223, 226);
+    }
+
+
+    .card:hover{
+        background-color: rgb(202, 202, 202);
+        transform: scale(1.05);
+        transition: 0.5s;
+        border-radius: 20px;
+    }
+    footer{
+        color: white;
+
+        background-image: url(/public/images/backfooter.png);
+        height: 100vh;
+
+        .footer1{
+            font-size: 45px;
+            color: white;
+             text-align: center;
+
+            display: flex;
+            justify-content: space-between;
+            padding-top: 0px;
+            padding: 50px;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-top: 100px;
+            border-bottom: 0.2px solid gray;
+
+            
+
+
+        }
+        .footer2{
+            padding-left: 100px;
+            span{
+                margin: 10px;
+                
+                font-size: 10px;
+                padding-left: 100px;
+
+                border: 0.2px solid gray;
+                border-radius: 15px;
+                padding: 10px;
+            }
+
+        }
+        .footer2 span:hover{
+            
+            background-color: rgb(80, 80, 210);
+            
+            transition: 1s;
+            cursor: progress;
+
+
+        }
+        .footer3{
+            display: flex;
+            justify-content: space-between;
+            .footer3snap{
+                display: flex;
+                font-size: 9px;
+
+                .f3s{
+                    
+                    margin: 10px;
+                    padding-top: 100px;
+                    padding-bottom: 0px;
+                }
+            
+            }
+
+        }
+    }
+}

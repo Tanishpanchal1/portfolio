@@ -1,0 +1,330 @@
+body{
+    font-family:  Helvetica;
+
+    header{
+        color: white;
+
+        background-image: url(/public/images/backgroundhead.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+
+        height: 100vh;
+
+
+
+        div{
+            display: flex;
+            justify-content: space-between;
+
+            span{
+                margin: 10px;
+            }
+        }
+        .headhead{
+            margin-top: 10px;
+            font-size: 10px;
+            
+        }
+        
+        
+        .middlehead{
+
+            margin: 40px;
+            margin-top: 150px;
+
+
+            .occp{
+                font-size: 25px;
+            }
+        }
+
+        .globe:hover{
+            transform: scale(1.5);
+            transition: 0.5s;
+        
+        }
+        .located:hover{
+            transform: scale(1.1);
+            transition: 0.5s;
+        }
+
+        
+
+       
+          
+        
+        
+
+    }
+
+    .sidebar {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0; rgb(82, 82, 251)
+        width: 40vh; /* Adjust the width as needed */
+        height: 100%;
+        background-color: #000000;
+        overflow-y: auto;
+        transition: 2s;
+        color: white;
+
+        .sidebar-elems div:hover{
+            transform: scale(1.05);
+            transition: 0.25s;
+        }
+        .inslideb{
+            padding: 15px;
+            color: white;
+            background-color: blue;
+            border-radius: 100px;
+            
+        }
+        .inslideb:hover{
+            transform: scale(1.2);
+            transition: 0.25s;
+        }
+        #inslideb{
+            position: fixed;
+            top: 50px;
+            opacity: 1;
+            right: 20px;
+
+        }
+
+
+        
+    }
+    #codebytanish:hover{
+        transform: scale(1.1);
+        transition: 1s;
+    }
+
+
+
+
+
+    .sidebar2 {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0; rgb(82, 82, 251)
+        width: 40vh; /* Adjust the width as needed */
+        height: 100%;
+        background-color: #000000;
+        overflow-y: auto;
+        transition: 1s;
+        color: white;
+
+        .sidebar-elems2 div:hover{
+            transform: scale(1.05);
+            transition: 0.25s;
+        }
+        .inslideb2{
+            padding: 15px;
+            color: white;
+            background-color: blue;
+            border-radius: 100px;
+            
+        }
+        .inslideb2:hover{
+            transform: scale(1.2);
+            transition: 0.25s;
+        }
+        #inslideb2{
+            position: fixed;
+            top: 50px;
+            opacity: 1;
+            right: 20px;
+
+        }
+
+
+        
+    }
+    .bi-arrow-down-right:hover{
+        transform: scale(1.25);
+        transition: 1s;
+        cursor:context-menu;
+    }
+
+
+    #sidebar-toggle {
+        position: fixed;
+        top: 50px;
+        opacity: 1;
+        right: 20px;
+        padding: 10px 10px;
+        
+        border: none;
+        border-radius: 100px;
+        cursor:grab;
+    }   
+    #sidebar-toggle2 {
+        
+        border: none;
+        border-radius: 100px;
+        cursor:grab;
+    }   
+    .bi-list{
+        background-color: #000000;
+        color: white;
+        
+    }
+
+    .list{
+        margin-bottom: 7px;
+        margin-left: 15px;
+    }
+    .bi-list:hover{
+        transform: scale(1.2);
+        background-color:  rgb(82, 82, 251);
+        
+        transition: 0.25s;
+        
+    } 
+    main{
+        padding-left: 80px;
+        padding-right: 80px;
+        
+
+
+        .main1{
+            padding-top: 100px;
+            padding-bottom: 50px;
+
+            
+
+            .m1{
+                margin: 10px;
+                
+
+                
+
+
+                .m21{
+                    
+                }
+
+                .m22:hover{
+                   
+                    transform: scale(1.2);
+                    transition: 0.5s;
+                    
+
+                }
+
+            }
+        }
+        .main2{
+            
+            border-top: 0.2px solid gray;
+
+            display: flex;
+            justify-content: space-between;
+
+            padding: 15px;
+
+
+
+        }
+        .main2:hover{
+            color: gray;
+            padding-left: 2px;
+            padding-right: 2px;
+            
+            transition: 0.5s;
+
+        }
+
+        .morework nav{
+            
+            width: 100px;
+            padding: 10px;
+            border: 0.2px solid gray;
+            border-radius: 20px;
+            font-size: 10px;
+
+            margin: 20px;
+
+            margin-bottom: 20px;
+        }
+        .morework nav:hover{
+            background-color: rgb(82, 82, 251);
+            color: white;
+            transform: scale(1.1);
+            transition: 0.3s;
+        }
+    }
+
+    
+    footer{
+        color: white;
+
+        background-image: url(/public/images/backfooter.png);
+        height: 100vh;
+
+        .footer1{
+            font-size: 45px;
+            color: white;
+             text-align: center;
+
+            display: flex;
+            justify-content: space-between;
+            padding-top: 0px;
+            padding: 50px;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-top: 100px;
+            border-bottom: 0.2px solid gray;
+
+            
+
+
+        }
+        .footer2{
+            padding-left: 100px;
+            span{
+                margin: 10px;
+                
+                font-size: 10px;
+                padding-left: 100px;
+
+                border: 0.2px solid gray;
+                border-radius: 15px;
+                padding: 10px;
+            }
+
+        }
+        .footer2 span:hover{
+            
+            background-color: rgb(80, 80, 210);
+            
+            transition: 1s;
+            cursor: progress;
+
+
+        }
+        .footer3{
+            display: flex;
+            justify-content: space-between;
+            .footer3snap{
+                display: flex;
+                font-size: 9px;
+
+                .f3s{
+                    
+                    margin: 10px;
+                    padding-top: 100px;
+                    padding-bottom: 0px;
+                }
+            
+            }
+
+        }
+    }
+
+
+}
